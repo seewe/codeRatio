@@ -1,0 +1,7 @@
+theme: hugo-arcana
+params:
+  enableSourceMaps: yes
+  footer:
+    contact_form:
+      enabled: no
+    links: {}
