@@ -1,19 +1,79 @@
 project:
   type: website
-
+    
 website:
+  favicon: ./www/img/CRlogo.png 
   title: "codeRatio"
+  open-graph: true
+  twitter-card: true
+  
+  cookie-consent: 
+    type: express
+    style: headline
+    palette: light
+  google-analytics:
+    tracking-id: "G-XXXXXXX"
+    anonymize-ip: true
+  
   navbar:
-    left:
+    logo: ./www/img/CRlogo.png 
+    logo-alt: "codeRatio.png"
+    logo-href: "/"
+    background: dark
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+        icon: "house"
+        
+      - href: ./QMD/blogsMenu.qmd
+        text: Blogs
+        icon: "book"
+        
+      - href: ./QMD/contact.qmd
+        text: Contact
+        icon: "phone"
+        
+      - href: ./QMD/about.qmd
+        text: About
+        icon: "person"
+        
+    pinned: true
+    collapse-below: md
+    
+    contents:
+      - section: "BLOGS"
+        href: ./QMD/blogsMenu.qmd
+      - text: "---"
+      - section: "ABOUT"
+        href: ./QMD/about.qmd
+      - text: "---"
+      - section: "CONTACTS"
+        href: ./QMD/contact.qmd
+      - text: "---"
+  page-footer: 
+    background: dark
+    left: 
+      - text: "Copyright 2023, codeRatio"
+        icon: "copyright"
+    center: 
+      - text: "Bring out the light of a computer ! " 
+        icon: "book"
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+      - icon: facebook 
+        href: https://facebook.com/ 
+    
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      light: [cosmo, theme.scss menti] 
+      #dark: slate
+    css: www/css/styles.css
     toc: true
+    page-layout: full
 
 
 

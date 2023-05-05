@@ -1,9 +1,21 @@
 ---
-title: "About"
+pagetitle: "About codeRatio"
+css: ../index.css
+about:
+  id: hero-heading
+  template: trestles
+  image: ../www/img/CRlogo.png
+  links:
+    - icon: facebook
+      text: facebook
+      href: https://www.facebook.com/sergio.ebouele
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/sergio-ewane-ebouele-b676b31ab/
+    - icon: github
+      text: Github
+      href: https://github.com/seewe
 ---
 
-About this site
 
-```{r}
-1 + 1
-```
+

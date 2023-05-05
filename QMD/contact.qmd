@@ -1,0 +1,35 @@
+---
+pagetitle: "codeRatio"
+css: ../index.css
+about:
+  id: hero-heading
+  template: trestles
+  image: ../www/img/CRlogo.png
+  links:
+    - icon: facebook
+      text: facebook
+      href: https://www.facebook.com/sergio.ebouele
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/sergio-ewane-ebouele-b676b31ab/
+    - icon: github
+      text: Github
+      href: https://github.com/seewe
+---
+
+
+
+<iframe width="1000px" height="1100px" 
+        src="https://forms.office.com/Pages/ResponsePage.aspx?id=70_DEhdlx0Sc_3g9dELrwdpsvZPt-sZPvlCgGTKfAERUQ05MRjU0QUlOQ1daUUUwTkpQQTVPOEo3OS4u&embed=true" 
+        frameborder="1" 
+        marginwidth="0" 
+        marginheight="0" 
+        style="border: 0px solid rgba(155, 201, 232, 1); 
+               border-radius: 20px 20px;
+               max-width:300%; 
+               max-height:100vh" 
+        allowfullscreen 
+        webkitallowfullscreen 
+        mozallowfullscreen 
+        msallowfullscreen> 
+</iframe>

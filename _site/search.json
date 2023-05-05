@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "codeRatio",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n5\n5"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,124 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "QMD/about.html",
+    "href": "QMD/about.html",
+    "title": "codeRatio",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\nje suis ici"
+  },
+  {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "codeRatio",
+    "section": "",
+    "text": "Readme\nThis repository contains all documents related to codeRatio web site.\ncodeRatio is an IT company where developper are free to do what they want and how they think it !\n\n** ees  *******"
+  },
+  {
+    "objectID": "QMD/contact.html",
+    "href": "QMD/contact.html",
+    "title": "codeRatio",
+    "section": "",
+    "text": "This is an h1 header"
+  },
+  {
+    "objectID": "QMD/blogsMenu.html",
+    "href": "QMD/blogsMenu.html",
+    "title": "List of blogs",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nblog 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog 4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog 5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog 6\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog 7\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog 8\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog 1\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nSergio, Ewane\n\n\nFriday, March 24, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "QMD/blogs/blog9.html",
+    "href": "QMD/blogs/blog9.html",
+    "title": "blog2",
+    "section": "",
+    "text": "This is a Shinylive application embedded in a Quarto doc.\n#| standalone: true\n\nfrom shiny import *\n\napp_ui = ui.page_fluid(\n    ui.input_slider(\"n\", \"N\", 0, 100, 40),\n    ui.output_text_verbatim(\"txt\"),\n)\n\ndef server(input, output, session):\n    @output\n    @render.text\n    def txt():\n        return f\"The value of n*2 is {input.n() * 2}\"\n\napp = App(app_ui, server)"
+  },
+  {
+    "objectID": "QMD/blogs/blog9.html#inputs-and-outputs",
+    "href": "QMD/blogs/blog9.html#inputs-and-outputs",
+    "title": "form",
+    "section": "Inputs and Outputs",
+    "text": "Inputs and Outputs\nYou can embed Shiny inputs and outputs in your document. Outputs are automatically updated whenever inputs change. This demonstrates how a standard R plot can be made interactive by wrapping it in the Shiny renderPlot function. The selectInput and sliderInput functions create the input widgets used to drive the plot.\n\n\n\n\n\n\nNumber of bins:\n\n10\n20\n35\n50\n\n\n\n\n\n\nBandwidth adjustment:"
+  },
+  {
+    "objectID": "QMD/blogs/blog9.html#embedded-application",
+    "href": "QMD/blogs/blog9.html#embedded-application",
+    "title": "form",
+    "section": "Embedded Application",
+    "text": "Embedded Application\nIt’s also possible to embed an entire Shiny application within an R Markdown document using the shinyAppDir function. This example embeds a Shiny application located in another directory:"
+  },
+  {
+    "objectID": "QMD/blogs/blog1.html",
+    "href": "QMD/blogs/blog1.html",
+    "title": "blog 1",
+    "section": "",
+    "text": "test 1"
+  },
+  {
+    "objectID": "index_pages/features_barner.html",
+    "href": "index_pages/features_barner.html",
+    "title": "codeRatio",
+    "section": "",
+    "text": "TESTIMONIAL\n\n\n\n\n\n Boris\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\n\n\n Bertrand\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\n\n\n Fulbert\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\n\n\n Vanessa\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis"
+  },
+  {
+    "objectID": "index_pages/hero_barner.html",
+    "href": "index_pages/hero_barner.html",
+    "title": "codeRatio",
+    "section": "",
+    "text": ": %>% :|>: CODE RATIO :</>:~:\n\nAbout Page about.\nBlogs pages.\n\n\nAbout us Blogs"
+  },
+  {
+    "objectID": "index_pages/technology_barner.html",
+    "href": "index_pages/technology_barner.html",
+    "title": "codeRatio",
+    "section": "",
+    "text": "TECHNOLOGIES WE USE\n\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis.\nLearn more »\n\n\n\n\n\n\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\nLearn more »\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\nLearn more »"
+  },
+  {
+    "objectID": "index_pages/get_started_barner.html",
+    "href": "index_pages/get_started_barner.html",
+    "title": "codeRatio",
+    "section": "",
+    "text": "Get Started"
+  },
+  {
+    "objectID": "index_pages/cover_barner.html",
+    "href": "index_pages/cover_barner.html",
+    "title": "codeRatio",
+    "section": "",
+    "text": "CODE RATIO\n\nPage About Page.\nBlogs pages.\n\n\nAbout us Blogs"
+  },
+  {
+    "objectID": "index_pages/technology_barner2.html",
+    "href": "index_pages/technology_barner2.html",
+    "title": "codeRatio",
+    "section": "",
+    "text": "TECHNOLOGIES WE USE\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis"
+  },
+  {
+    "objectID": "index_pages/testimonial_barner.html",
+    "href": "index_pages/testimonial_barner.html",
+    "title": "codeRatio",
+    "section": "",
+    "text": "TESTIMONIAL\n\n\n\n\n\n Boris\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\n\n\n Bertrand\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\n\n\n Fulbert\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\n\n\n Vanessa\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis"
+  },
+  {
+    "objectID": "index_pages/technology_barner_old.html",
+    "href": "index_pages/technology_barner_old.html",
+    "title": "codeRatio",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\n\nLearn more »\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\n\nLearn more »\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\n\nLearn more »\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis\n\nLearn more »"
+  },
+  {
+    "objectID": "QMD/contact.html#yes-you-are-right",
+    "href": "QMD/contact.html#yes-you-are-right",
+    "title": "codeRatio",
+    "section": "Yes you are right",
+    "text": "Yes you are right"
   }
 ]

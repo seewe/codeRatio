@@ -1,0 +1,6 @@
+---
+title: "blog 2"
+comments:
+    giscus:
+      repo: quarto-dev/quarto-web
+---

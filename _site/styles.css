@@ -1,1 +1,41 @@
 /* css styles */
+
+#quarto-document-content{
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+#quarto-margin-sidebar{
+  display: none;
+}
+
+.card{
+  border-radius: 10px 10px 0px 0px;
+  transition: border-radius 0.3s ease-in;
+}
+
+.card:hover{
+  border-radius: 50px 50px 0px 0px;
+}
+
+.quarto-grid-item div.post-contents{
+  border:solid none none none;
+  border-style: solid none none none;
+  border-color: #6c757d;
+  border-width: 1px;
+  border-radius: 10px 10px 0px 0px;
+  transition: border-radius 0.3s ease-in;
+}
+
+.quarto-grid-item div.post-contents:hover{
+  border-radius: 10px 10px 0px 0px;
+}
+
+.quarto-grid-item p.card-img-top {
+  padding: 5px;
+}

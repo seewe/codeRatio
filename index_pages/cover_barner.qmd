@@ -1,0 +1,31 @@
+::: {.cover-banner}
+:::{#network}
+
+::: {.cover-image .cover-image-left}
+<!-- ![](../www/img/CRlogo.png){fig-alt="codeRatio logo printed well."} -->
+:::
+
+::: {.cover-image .cover-image-right}
+![](../www/img/CRlogobw2.png){fig-alt="codeRatio logo printed black and white."}
+:::
+
+
+
+::: {.content-block}
+
+# CODE RATIO {role="sitetitle"}
+
+## Data to bring out the light from you company ! {role="sitesubtitle"}
+
+<!--
+- Page [About](QMD/about.qmd) Page. 
+- [Blogs](QMD/blogsMenu.qmd) pages.
+
+::: {.cover-buttons}
+[About us](QMD/about.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[Blogs](QMD/blogs/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+::: 
+-->
+:::
+:::
+:::

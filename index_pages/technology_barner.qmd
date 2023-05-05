@@ -1,0 +1,55 @@
+
+
+
+::: {.techno-quarto .alt-background}
+::: {.content-block}
+
+::: {.techno-quarto-banner role="barnertitle"}
+# OUR SKILLS
+:::
+
+:::{.technologies2}
+
+<!-- *************************************************************************************************-->
+:::{.techno-desc-powerangers}
+
+:::{.an-image-power}
+:::
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis.  
+[Learn more »](QMD/about.qmd)
+:::
+
+:::{.techno-img-powerangers}
+:::
+
+<!-- *************************************************************************************************-->
+
+:::{.techno-img-programming}
+:::
+
+:::{.techno-desc-programming}
+
+:::{.an-image-program}
+:::
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis  
+[Learn more »](QMD/about.qmd)
+:::
+
+<!-- *************************************************************************************************-->
+
+:::{.techno-desc-powerangers}
+:::{.an-image-data}
+:::
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis  
+[Learn more »](QMD/about.qmd)
+:::
+
+:::{.techno-img-powerangers}
+:::
+<!-- *************************************************************************************************-->
+
+:::
+:::
+:::

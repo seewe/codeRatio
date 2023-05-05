@@ -1,0 +1,57 @@
+
+
+
+::: {.techno-quarto .alt-background}
+::: {.content-block}
+
+::: {.techno-quarto-banner role="barnertitle"}
+# OUR SKILLS
+:::
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+
+prd <- data.frame(
+  img = c("powerrangers.png", "powerapps.png", "powerbi.png", "powerauto.png", 
+          "rstudio.png","tidyverse.png", "shiny.png", "CRlogotransparent.png", 
+          "python.png", "jupither.png", "CRlogotransparent.png"),
+  alt = c("powerrangers.png", "powerapps.png", "powerbi.png", "powerauto.png", 
+          "rstudio.png","tidyverse.png", "shiny.png", "CRlogotransparent.png", 
+          "python.png", "jupither.png", "CRlogotransparent.png"),
+  msg = rep("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis", 11),
+  lrn = c("QMD/about.qmd", "QMD/about.qmd", "QMD/about.qmd", "QMD/about.qmd",
+            "QMD/about.qmd", "QMD/about.qmd", "QMD/about.qmd", "QMD/about.qmd",
+            "QMD/about.qmd", "QMD/about.qmd", "QMD/about.qmd"),
+  cat = c("Microsoft Office 365", "Microsoft Office 365", "Microsoft Office 365", "Microsoft Office 365", 
+          "R","R", "R", "R", 
+          "Python", "Python", "Python")
+)[1:11,]
+
+text_to_paste <- ""
+
+for(H2 in unique(prd$cat)){
+  
+  text_to_paste <- paste0(text_to_paste, 
+                          "## ", H2, " \n",
+                          "::: {.technologies} \n")
+  to_print <- prd %>% filter(cat == H2)
+  for (toprt in 1:nrow(to_print)) {
+    text_to_paste <- paste0(text_to_paste,
+                            "::: {.techno} \n",
+                            "![](./www/img/",to_print$img[toprt],"){fig-alt=",to_print$alt[toprt],"} \n\n",
+                            to_print$msg[toprt],"\n\n",
+                            "::: {.learn-more} \n",
+                            "[Learn more »](",to_print$lrn[toprt],") \n",
+                            "::: \n",
+                            "::: \n"
+                            )
+  }
+  text_to_paste <- paste0(text_to_paste, "::: \n")
+                          
+}
+
+knitr::asis_output(text_to_paste)
+```
+
+:::
+:::

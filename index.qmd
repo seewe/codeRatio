@@ -1,11 +1,22 @@
 ---
-title: "codeRatio"
+pagetitle: "codeRatioTest"
+page-layout: custom
+section-divs: false
+toc: false
+css: www/css/index.css
+editor: source
+image: ./www/img/CRlogo.png
+#header-includes:
+ # -<script src= 'www/js/index.js' > </script>
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+{{< include index_pages/cover_barner.qmd >}}
+{{< include index_pages/technology_barner_old.qmd >}}
+{{< include index_pages/testimonial_barner.qmd >}}
 
-```{r}
-1 + 1
-```
+
+<!-- {{< include index_pages/technology_barner.qmd >}} -->
+<!-- {{< include index_pages/get_started_barner.qmd >}} -->
+
+ 

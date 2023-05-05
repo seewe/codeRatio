@@ -1,0 +1,40 @@
+::: {.testimonials_block}
+::: {.content-block}
+
+:::{.testimonials_block_title}
+# TESTIMONIAL
+:::
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+
+prd <- data.frame(
+  img = c("CRLogo.png", "CRLogo1.png", "CRLogo2.png", "CRLogo3.png", 
+          "sergio.jpg", "CRlogotransparent.png", "CRlogotransparent.png", "CRlogotransparent.png"),
+  alt = c("CRLogo.png", "CRLogo1.png", "CRLogo2.png", "CRLogo3.png", 
+          "sergio.jpg", "CRlogotransparent.png", "CRlogotransparent.png", "CRlogotransparent.png"),
+  titl = c("Boris", "Bertrand", "Fulbert", "Vanessa", "Sergio", "Kevin", "Kendra", "Sergio"),
+  desc = rep("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero nec odio facilisis", 8)
+)[1:4, ]
+
+text_to_paste <- ""
+
+text_to_paste <- paste0(text_to_paste, "::: {.testimonials} \n") 
+
+for (toprt in 1:nrow(prd)) {
+  text_to_paste <- paste0(text_to_paste, "::: {.testimonial} \n") 
+  text_to_paste <- paste0(text_to_paste,
+                          "### ![](./www/img/testimonial/",prd$img[toprt],"){fig-alt=",prd$alt[toprt],"} ",prd$titl[toprt]," \n",
+                          prd$desc[toprt]," \n \n",
+                          "::: \n\n"
+                          )
+}
+
+text_to_paste <- paste0(text_to_paste, "::: \n") 
+
+knitr::asis_output(text_to_paste)
+```
+
+:::
+:::

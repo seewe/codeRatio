@@ -1,0 +1,18 @@
+---
+title: "List of blogs"
+
+sidebar: true
+listing: 
+  contents: blogs
+  type: grid
+  grid-item-align: center
+  grid-columns: 3
+  sort: "date desc"
+  image-placeholder: ../www/img/CRlogo.png 
+  date-format: full
+  sort-ui: TRUE
+  filter-ui: TRUE
+  page-size: 3
+  feed: TRUE
+---
+

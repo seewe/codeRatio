@@ -1,0 +1,9 @@
+
+
+::: {.get-started .alt-background}
+::: {.content-block}
+
+[Get Started](QMD/about.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
+
+:::
+:::
